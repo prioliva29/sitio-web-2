@@ -1,0 +1,30 @@
+details{
+    border: 3px  gray outset;
+    background-color: rgb(247, 153, 99);
+    font-style: italic;
+    line-height: 2;
+        }
+
+.principal{
+    background-color: aqua;
+        }
+.parrafoResaltado {
+    font-size: medium;
+    padding: 10px;
+    border: double 4px brown;
+    border-radius: 10px;
+    background-color: bisque;
+        }
+#parrafoEspecial {
+    font-weight: lighter;
+    padding-bottom: 10px;
+    border: ridge 4px rgb(250, 143, 81);
+    background-color: sandybrown;
+        }
+#parrafoEspecial:hover {
+    background-color: aquamarine;
+    transform: scale(105%);
+        }
+p:hover {
+    text-decoration: line-through;
+}
